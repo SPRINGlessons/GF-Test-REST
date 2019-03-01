@@ -24,7 +24,7 @@ public class MainRestController {
         return mainDao.getEntity();
     }
 
-    @GetMapping("/gettomcat")
+    @GetMapping("/getgf")
     public @ResponseBody String getTomcat() {
         System.out.println("Запрос Tomcat прошел");
         System.out.println(mainDao.getEntity().getTestString());
@@ -47,7 +47,7 @@ public class MainRestController {
 
 
 
-    @RequestMapping(value = "/addtomcat", method = RequestMethod.POST)
+    @RequestMapping(value = "/addgf", method = RequestMethod.POST)
     public ResponseEntity<Void> addMeasureTomcat(@RequestBody LocalEntity measure) {
         System.out.println("Запрос на добавление прошел");
         System.out.println(measure.getTestString());
