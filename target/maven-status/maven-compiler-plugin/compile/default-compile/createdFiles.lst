@@ -1,0 +1,7 @@
+com\antonromanov\springhibernate\controller\JspController.class
+com\antonromanov\springhibernate\DAO\PremiumDAO.class
+com\antonromanov\springhibernate\model\LocalEntity.class
+com\antonromanov\springhibernate\config\SpringWebAppInitializer.class
+com\antonromanov\springhibernate\config\AppConfig.class
+com\antonromanov\springhibernate\controller\MainRestController.class
+com\antonromanov\springhibernate\DAO\PremiumDAOImpl.class
